@@ -17,16 +17,16 @@
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
 
-let step1 = "Planning"
-let step2 = "Analysis of requirements"
-let step3 = "Design"
-let step4 = "Implementation"
-let step5 = 'Testing & Integration'
-let step6 = "Maintain"
+let planning = "deciding what to build"
+let analysisofrequirements = "deciding what your product needs to do, and being very specific about the things needed"
+let design = "Deciding what the project looks like; and outline the details for the overall application"
+let implementation = "The part where we actually start writing code "
+let testingAndIntegration = "Testing the software and interaction between its components and making sure the project functions properly "
+let Maintain = "update and bug fixes"
 
-console.log(`Step one of the Software Development Cycle is ${step1}`)
-console.log(`Step two of the Software Development Cycle is ${step2}`)
-console.log(`Step three of the Software Development Cycle is ${step3}`)
-console.log(`Step four of the Software Development Cycle is ${step4}`)
-console.log(`Step five of the Software Development Cycle is ${step5}`)
-console.log(`Step six of the Software Development Cycle is ${step6}`)
+console.log(planning)
+console.log(analysisofrequirements)
+console.log(design)
+console.log(implementation)
+console.log(testingAndIntegration)
+console.log(Maintain)

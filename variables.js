@@ -13,7 +13,7 @@ let myName = "Danish Mansoori"
 
 //CODE HERE
 
-let faveNum = 13
+let faveNum = 14
 
 
 
@@ -47,6 +47,6 @@ if (faveNum === 13){
 
 //CODE HERE
 
-for (i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++){
   console.log(faveNum)
 }
