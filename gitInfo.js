@@ -37,8 +37,10 @@ let gitHubDefinition = 'Github is an online hosting platform where you can post 
     following the guidelines above to describe the init command.
 */
 
-let problem3 = { Description: " The 'Init' command initalizes a git repository within whichever directory you're working in", code: "git init" }
-console.log(problem3.Description, problem3.code)
+const init = { 
+    Description: " The 'Init' command initalizes a git repository within whichever directory you're working in", 
+    code: "git init" }
+console.log(init.Description, init.code)
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -48,8 +50,10 @@ console.log(problem3.Description, problem3.code)
 
 //CODE HERE
 
-let problem4 = {Description: "the git clone command is used to clone an existing repository into a newly created directory.", code: "'git clone' followed by the URL" }
-console.log(problem4.Description, problem4.code)
+const clone = {
+    Description: "the git clone command is used to clone an existing repository into a newly created directory.", 
+    code: "'git clone' followed by the URL" }
+console.log(clone.Description, clone.code)
 
 
 //////////////////PROBLEM 5////////////////////
@@ -60,8 +64,10 @@ console.log(problem4.Description, problem4.code)
 
 //CODE HERE
 
-let problem5 = {Description: "This command shows you the current state of the working directory and the staging area. It lets you know which files are being tracked and which ones arent, and if those files have been modified.", code: "git status"}
-console.log(problem5.Description, problem5.code)
+const statuss= {
+    Description: "This command shows you the current state of the working directory and the staging area. It lets you know which files are being tracked and which ones arent, and if those files have been modified.", 
+    code: "git statuss"}
+console.log(statuss.Description, statuss.code)
 
 
 
@@ -73,8 +79,10 @@ console.log(problem5.Description, problem5.code)
 
 //CODE HERE
 
-let problem6 = {Description: "This command adds all of the files in the current working directory to the staging area, It tells Git that you want to include updates to these files in your next commit, Git add doesn't really do anything until you commit the changes though", code: "Git add . (file name or leave empty to add all files in current directory"}
-console.log(problem6.Description, problem6.code)
+const add = {
+    Description: "This command adds all of the files in the current working directory to the staging area, It tells Git that you want to include updates to these files in your next commit, Git add doesn't really do anything until you commit the changes though", 
+    code: "Git add . (file name or leave empty to add all files in current directory"}
+console.log(add.Description, add.code)
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -84,8 +92,10 @@ console.log(problem6.Description, problem6.code)
 
 //CODE HERE
 
-let problem7 = {Description: "This command captures a snapshot of the current changes that have been staged, kind of like a save that you make in a video game", code: "git commit -m 'message contained in here' "}
-console.log(problem7.Description, problem7.code)
+const commit = {
+    Description: "This command captures a snapshot of the current changes that have been staged, kind of like a save that you make in a video game", 
+    code: "git commit -m 'message contained in here' "}
+console.log(commit.Description, commit.code)
 
 
 //////////////////PROBLEM 8////////////////////
@@ -96,5 +106,7 @@ console.log(problem7.Description, problem7.code)
 
 //CODE HERE
 
-let problem8 = {Description: "This command takes the save that you made with git commit and it uploads it your remote repository", code: "git push"}
-console.log(problem8.Description, problem8.code)
+const push = {
+    Description: "This command takes the save that you made with git commit and it uploads it your remote repository", 
+    code: "git push"}
+console.log(push.Description, push.code)
